@@ -11,7 +11,6 @@ import {
   FILTER_CONTACTS,
   CLEAR_FILTER,
 } from '../types';
-import contactContext from './contactContext';
 
 function ContactState(props) {
   const initialState = {

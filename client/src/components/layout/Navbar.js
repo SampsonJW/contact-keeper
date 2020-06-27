@@ -23,6 +23,14 @@ function Navbar({ title, icon }) {
             About
           </Link>
         </div>
+        <div className='navbar-nav ml-auto'>
+          <Link to='/register' className='nav-item nav-link'>
+            Register
+          </Link>
+          <Link to='/login' className='nav-item nav-link'>
+            Login
+          </Link>
+        </div>
       </div>
     </nav>
   );
