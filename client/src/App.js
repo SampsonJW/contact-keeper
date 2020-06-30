@@ -17,7 +17,7 @@ import setAuthToken from './utils/setAuthToken';
 if (localStorage.token) {
   setAuthToken(localStorage.token);
 }
-
+// if is authenticated then stay logged in?
 function App() {
   return (
     <AlertState>
